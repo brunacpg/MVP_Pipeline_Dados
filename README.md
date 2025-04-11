@@ -84,19 +84,6 @@ Incluído no repositório para facilitar reprodução dos experimentos.
 
 ---
 
-## ✅ Como executar localmente
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/mvp-salarios-dados.git
-```
-2. Instale os requisitos (recomenda-se uso de ambiente virtual):
-```bash
-pip install pandas matplotlib seaborn plotly
-```
-3. Execute o `notebook.ipynb` com Jupyter ou diretamente em VSCode/Google Colab.
-
----
 
 ## 📝 Catálogo de Dados e Modelagem de dados 
 
@@ -137,6 +124,13 @@ Dim_Empresa
 id_empresa
 
 porte (S, M, L)
+
+## Modelo Estrela (Star Schema)
+
+O modelo de dados adotado foi o **Esquema Estrela**, onde temos a tabela fato `Fato_Vaga` e dimensões como `Dim_Empresa` e `Dim_Localidade`.
+
+![Star Schema](modelo_estrela_ajustado.png)
+
 
 | Coluna              | Tipo    | Descrição                                                                 |
 |---------------------|---------|---------------------------------------------------------------------------|
