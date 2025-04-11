@@ -98,7 +98,45 @@ pip install pandas matplotlib seaborn plotly
 
 ---
 
-## 📝 Catálogo de Dados
+## 📝 Catálogo de Dados e Modelagem de dados 
+
+Modelo: Esquema Estrela (Star Schema)
+
+Fato_Vaga
+
+id_vaga (PK)
+
+data_ano
+
+cargo
+
+salario_usd
+
+experiencia
+
+tipo_trabalho
+
+tipo_contrato
+
+id_local_funcionario (FK)
+
+id_local_empresa (FK)
+
+id_empresa (FK)
+
+Dim_Localidade
+
+id_local
+
+pais
+
+continente
+
+Dim_Empresa
+
+id_empresa
+
+porte (S, M, L)
 
 | Coluna              | Tipo    | Descrição                                                                 |
 |---------------------|---------|---------------------------------------------------------------------------|
