@@ -151,9 +151,9 @@ O modelo de dados adotado foi o **Esquema Estrela**, onde temos a tabela fato `F
 
 ## 🙋‍♂️ Autor
 
-- Nome: [Bruna Gonçalves]
+- Nome: Bruna Gonçalves
 - Curso: Engenharia de Dados
-- Universidade: [PUC/RIO]
+- Universidade: PUC/RIO
 
 
 ## 📌 Licença
