@@ -33,7 +33,7 @@ Como tem evoluído a média salarial dos profissionais da área ao longo dos ano
 Quais cargos apresentam maior variação salarial, indicando possível desigualdade ou amplitude de níveis dentro da função?
 
 Existe uma disparidade salarial entre países? Quais regiões apresentam os maiores salários médios na área de dados e inteligência artificial?
----
+
 
 ## 📂 Dataset
 
