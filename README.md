@@ -100,19 +100,20 @@ pip install pandas matplotlib seaborn plotly
 
 ## 📝 Catálogo de Dados
 
-| Coluna               | Tipo    | Descrição                                                  |
-|----------------------|---------|--------------------------------------------------------------|
-| work_year            | int64   | Ano da coleta do dado                                       |
-| experience_level     | string  | Nível de experiência (EN, MI, SE, EX)                       |
-| employment_type      | string  | Tipo de vínculo (FT, PT, CT, FL)                           |
-| job_title            | string  | Nome do cargo                                               |
-| salary               | int64   | Salário bruto (moeda local)                                |
-| salary_currency      | string  | Moeda do salário                                            |
-| annual_salary_usd    | float64 | Salário anual convertido para USD                          |
-| employee_residence   | string  | País de residência do funcionário                          |
-| remote_ratio         | int64   | % de trabalho remoto (0, 50, 100)                          |
-| company_location     | string  | Localização da sede da empresa                            |
-| company_size         | string  | Tamanho da empresa (S, M, L)                               |
+| Coluna              | Tipo    | Descrição                                                                 |
+|---------------------|---------|---------------------------------------------------------------------------|
+| work_year           | long    | Ano em que a vaga foi registrada                                          |
+| experience_level    | string  | Nível de experiência do profissional: EN (Júnior), MI (Pleno), SE (Sênior), EX (Executivo) |
+| employment_type     | string  | Tipo de vínculo empregatício: FT (Full-time), PT (Part-time), CT (Contract), FL (Freelancer) |
+| job_title           | string  | Título ou cargo do profissional na vaga                                  |
+| salary              | long    | Valor do salário bruto na moeda local da empresa contratante             |
+| salary_currency     | string  | Código da moeda em que o salário original foi informado (ex: USD, EUR)   |
+| annual_salary_usd   | long    | Salário anual convertido para dólar americano (USD)                      |
+| employee_residence  | string  | País de residência do funcionário (sigla do país)                        |
+| remote_ratio        | long    | Percentual do trabalho remoto: 0 (presencial), 50 (híbrido), 100 (remoto)|
+| company_location    | string  | País onde a empresa contratante está localizada                          |
+| company_size        | string  | Porte da empresa: S (Pequena), M (Média), L (Grande)                     |
+
 
 ---
 
