@@ -6,15 +6,33 @@ Este repositório contém um projeto completo de análise exploratória de dados
 
 ## 🎯 Objetivo
 
-Analisar o impacto da Inteligência Artificial (IA), Ciência de Dados e Machine Learning no mercado de trabalho global, com foco em **remuneração** e **condições de trabalho**. A partir da construção de um pipeline de dados com Python/Pandas, as perguntas respondidas incluem:
+Este projeto tem como principal objetivo analisar o impacto da Inteligência Artificial (IA), Ciência de Dados e Machine Learning no mercado de trabalho global, com ênfase em aspectos relacionados à remuneração e condições de trabalho. A partir da construção de um pipeline de dados em nuvem, serão obtidos insights relevantes sobre os salários de profissionais da área de tecnologia, considerando variáveis como localização geográfica, nível de experiência, modelo de trabalho e porte da empresa.
 
-- Qual a variação salarial média entre níveis de experiência?
-- Como o porte da empresa influencia o salário?
-- Cargos mais bem pagos na área de dados?
-- Diferenças salariais entre modelos de trabalho (remoto, híbrido, presencial)?
-- Evolução da média salarial ao longo dos anos?
-- Quais países mais contratam profissionais da área?
+Perguntas de Negócio:
 
+Qual a variação salarial média entre os diferentes níveis de experiência? (Júnior, Pleno, Sênior e Executivo)
+
+Quais são os cargos mais frequentes entre os profissionais da área?
+
+Como o salário médio varia conforme a localização da empresa?
+
+Existe diferença salarial com base no porte da empresa? (pequena, média ou grande)
+
+Como se comporta o salário médio ao cruzar país e nível de experiência?
+
+Qual o impacto do tipo de vínculo empregatício na remuneração média? (integral, parcial, temporário, contrato)
+
+O modelo de trabalho (presencial, híbrido ou remoto) influencia o salário?
+
+Quais cargos relacionados à IA e Ciência de Dados apresentam os maiores salários?
+
+Quais países lideram em número de contratações na área de dados e IA?
+
+Como tem evoluído a média salarial dos profissionais da área ao longo dos anos?
+
+Quais cargos apresentam maior variação salarial, indicando possível desigualdade ou amplitude de níveis dentro da função?
+
+Existe uma disparidade salarial entre países? Quais regiões apresentam os maiores salários médios na área de dados e inteligência artificial?
 ---
 
 ## 📂 Dataset
