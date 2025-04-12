@@ -72,19 +72,14 @@ Incluído no repositório para facilitar reprodução dos experimentos.
 - Evolução salarial por ano (linha do tempo)
 
 ---
-## 📁 Organização dos Arquivos
+## 📁 Organização dos Arquivos - MVP_Salarios_AI
 
-MVP_Salarios_AI/
+- `MVP_Salarios_AI.ipynb`: **Notebook com todo o pipeline/ Exportado do Databricks**
+- `ds_salaries.csv`: **Base de dados original**
+- `modelo_estrela.png`: **Diagrama ER (modelo estrela)**
+- `figs/`: **Pasta com os gráficos gerados**
+- `README.md`: **Apresentação e estrutura do projeto**
 
-  ds_salaries.csv         # Dataset original contendo informações salariais  
-  
-  MVP_Salarios_AI.ipynb   # Notebook com todo o pipeline de análise, visualizações e insights 
-  
-  modelo_estrela.png      # Diagrama ER (modelo estrela) da modelagem de dados  
-  
-  figs/                   # Pasta com imagens dos gráficos gerados nas análises  
-  
-  README.md               # Documento explicativo com objetivos, estrutura e execução do projeto
 
 
 ## 📝 Catálogo de Dados e Modelagem de dados 
