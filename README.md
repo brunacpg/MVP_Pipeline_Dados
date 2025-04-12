@@ -72,17 +72,14 @@ Incluído no repositório para facilitar reprodução dos experimentos.
 - Evolução salarial por ano (linha do tempo)
 
 ---
-
 ## 📁 Organização dos Arquivos
 
-```
-├── README.md            ← Descrição do projeto
-├── ds_salaries.csv      ← Base de dados original
-├── notebook.ipynb       ← Código completo com gráficos e análises
-└── /figs                ← Pasta com imagens dos gráficos exportados
-```
-
----
+MVP_Salarios_AI/
+  ds_salaries.csv         # Dataset original contendo informações salariais  
+  MVP_Salarios_AI.ipynb   # Notebook com todo o pipeline de análise, visualizações e insights  
+  modelo_estrela.png      # Diagrama ER (modelo estrela) da modelagem de dados  
+  figs/                   # Pasta com imagens dos gráficos gerados nas análises  
+  README.md               # Documento explicativo com objetivos, estrutura e execução do projeto
 
 
 ## 📝 Catálogo de Dados e Modelagem de dados 
@@ -131,6 +128,7 @@ O modelo de dados adotado foi o **Esquema Estrela**, onde temos a tabela fato `F
 
 ![Star Schema](modelo_estrela_ajustado.png)
 
+## 📑 Catálogo de Dados
 
 | Coluna              | Tipo    | Descrição                                                                 |
 |---------------------|---------|---------------------------------------------------------------------------|
